@@ -10,7 +10,7 @@ let started=false;
 let level=0;
 let temp=level;
 let btns=["yellow","pink","blue","red"];
-document.addEventListener("touchstart",()=>{
+document.addEventListener("click",()=>{
     if(started==false){
 
         started=true;
