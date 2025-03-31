@@ -67,7 +67,7 @@ function check(index){
         },2000);
         oversound.currentTime=0;
         oversound.play();
-        h2.innerHTML=`Game Over! Your score was ${temp}<br> Press any key to start again`;
+        h2.innerHTML=`Game Over! Your score was ${temp-1}<br> Press any key to start again`;
         setTimeout(reset,1050);
     }
 }
