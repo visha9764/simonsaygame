@@ -10,6 +10,13 @@ let started=false;
 let level=0;
 let temp=level;
 let btns=["yellow","pink","blue","red"];
+document.addEventListener("touchstart",()=>{
+    if(started==false){
+
+        started=true;
+        levelup();
+    }
+})
 document.addEventListener("keypress",()=>{
 
     if(started==false){
