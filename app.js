@@ -3,7 +3,7 @@ let user_sequence=[];
 let body=document.querySelector("body");
 const clicksound=new Audio('click.wav');
 const oversound=new Audio('gameover.wav');
-clicksound.volume=0.2;
+clicksound.volume=0.9;
 clicksound.load();
 let h2=document.querySelector("h2");
 let started=false;
